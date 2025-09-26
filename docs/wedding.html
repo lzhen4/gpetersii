@@ -2517,9 +2517,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
+<!-- ```{r} -->
+<!-- # Resize jpg for web -->
+<!-- library(magick) -->
+<!-- in_dir <- "C:/Users/Leslie/Desktop/wedding_pics/wedding" -->
+<!-- out_dir <- "images/wedding" -->
+<!-- dir.create(out_dir, recursive = TRUE, showWarnings = FALSE) -->
+<!-- files <- list.files(in_dir, pattern = "(?i)\\.jpe?g$", full.names = TRUE) -->
+<!-- for (f in files) { -->
+<!--   img <- image_read(f) -->
+<!--   img <- image_orient(img) # Honor camera rotation -->
+<!--   img <- image_scale(img, "1600x1600") # Shrink to fit box, keep aspect ratio -->
+<!--   image_write(img,  -->
+<!--               path = file.path(out_dir, basename(f)), -->
+<!--               format = "jpeg", -->
+<!--               quality = 82) -->
+<!-- } -->
+<!-- ``` -->
 <div class="layout-chunk" data-layout="l-body">
-<div id="htmlwidget-f66b94b190885421d4f7" style="width:100%;height:100%;" class="pixgallery html-widget"></div>
-<script type="application/json" data-for="htmlwidget-f66b94b190885421d4f7">{"x":{"path":["images/evie2.jpg","images/evie1.jpg","images/pippin.jpg"],"caption":[],"caption_valign":"none","caption_halign":"left","link":[true],"h":null,"w":null,"gap":"5px","border_radius":"0px","layout":"grid","shuffle":false},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-67723ab48b6479961364" style="width:100%;height:100%;" class="pixgallery html-widget"></div>
+<script type="application/json" data-for="htmlwidget-67723ab48b6479961364">{"x":{"path":["images/wedding/aigettingready0269.jpg","images/wedding/bbfirstlook0288.jpg","images/wedding/bcfirstlook6336.jpg","images/wedding/bfweddingparty0410.jpg","images/wedding/biweddingparty1626.jpg","images/wedding/bmweddingparty7059.jpg","images/wedding/boweddingparty0531.jpg","images/wedding/cbportraits7613.jpg","images/wedding/dbceremony8087.jpg","images/wedding/ddceremony8106.jpg","images/wedding/ddceremony8185.jpg","images/wedding/dfceremony8232.jpg","images/wedding/dfceremony8241.jpg","images/wedding/dgceremony1762.jpg","images/wedding/djceremony1016.jpg","images/wedding/dpfamily8044.jpg","images/wedding/dpfamily8417.jpg","images/wedding/dpfamily8419.jpg","images/wedding/dpfamily8423.jpg","images/wedding/dpfamily8429.jpg","images/wedding/dpfamily8434.jpg","images/wedding/dpfamily8437.jpg","images/wedding/dpfamily8441.jpg","images/wedding/dpfamily8445.jpg","images/wedding/dpfamily8452.jpg","images/wedding/dpfamily8454.jpg","images/wedding/dpfamily8457.jpg","images/wedding/dpfamily8459.jpg","images/wedding/faintros8649.jpg","images/wedding/gafirstdance8729.jpg","images/wedding/hadad1240.jpg","images/wedding/hbmom8879.jpg","images/wedding/jacake1365.jpg","images/wedding/kaparty1598.jpg","images/wedding/kaparty1819.jpg","images/wedding/kaparty1962.jpg","images/wedding/kaparty8986.jpg","images/wedding/kaparty8987.jpg","images/wedding/kaparty9006.jpg","images/wedding/kaparty9146.jpg","images/wedding/kaparty9216.jpg","images/wedding/kaparty9270.jpg"],"caption":[],"caption_valign":"none","caption_halign":"left","link":[true],"h":null,"w":null,"gap":"5px","border_radius":"0px","layout":"grid","shuffle":false},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

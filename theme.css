@@ -100,6 +100,23 @@ d-appendix {
   max-height: 40px; /* Makes logo bigger, default was 20px */
 }
 
+/* Navbar dropdown style */
+.distill-site-header .dropdown-menu,
+.distill-site-header .nav-dropdown .nav-dropdown-content {
+  background-color: #000 !important;
+  border: 1px solid #444;
+}
+
+.distill-site-header .dropdown-menu .dropdown-item,
+.distill-site-header .nav-dropdown .nav-dropdown-content a {
+  color: #fff !important;
+}
+
+.distill-site-header .dropdown-menu .dropdown-item:hover,
+.distill-site-header .nav-dropdown .nav-dropdown-content a:hover {
+  background-color: #222 !important;
+  color: #fff !important;
+}
 
 /* Background image */
 body {
@@ -118,9 +135,11 @@ p, h1, h2, h3, h4, h5, h6, span, a {
     color: #FFFFFF !important;
 }
 
+/* Countdown clock */
 #countdown {
     font-size: 2em;
     color: #FFFFFF; /* Adjust based on site's background color */
     text-align: center;
     margin-top: 20px;
 }
+

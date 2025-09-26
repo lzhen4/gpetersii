@@ -2275,6 +2275,23 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     max-height: 40px; /* Makes logo bigger, default was 20px */
   }
 
+  /* Navbar dropdown style */
+  .distill-site-header .dropdown-menu,
+  .distill-site-header .nav-dropdown .nav-dropdown-content {
+    background-color: #000 !important;
+    border: 1px solid #444;
+  }
+
+  .distill-site-header .dropdown-menu .dropdown-item,
+  .distill-site-header .nav-dropdown .nav-dropdown-content a {
+    color: #fff !important;
+  }
+
+  .distill-site-header .dropdown-menu .dropdown-item:hover,
+  .distill-site-header .nav-dropdown .nav-dropdown-content a:hover {
+    background-color: #222 !important;
+    color: #fff !important;
+  }
 
   /* Background image */
   body {
@@ -2293,12 +2310,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       color: #FFFFFF !important;
   }
 
+  /* Countdown clock */
   #countdown {
       font-size: 2em;
       color: #FFFFFF; /* Adjust based on site's background color */
       text-align: center;
       margin-top: 20px;
-  }</style>
+  }
+  </style>
   <style type="text/css">
   /* base style */
 
@@ -2496,8 +2515,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a href="rsvp.html">RSVP</a>
 <a href="registry.html">Registry</a>
 <a href="weddingparty.html">Party</a>
-<a href="pictures.html">Pictures</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Pictures
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="pictures.html">Engagement</a>
 <a href="wedding.html">Wedding</a>
+</div>
+</div>
 <a href="faq.html">FAQ</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -2535,8 +2563,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!-- } -->
 <!-- ``` -->
 <div class="layout-chunk" data-layout="l-body">
-<div id="htmlwidget-6c200a5e13d242898a2d" style="width:100%;height:100%;" class="pixgallery html-widget"></div>
-<script type="application/json" data-for="htmlwidget-6c200a5e13d242898a2d">{"x":{"path":["images/wedding/afgettingready0021.jpg","images/wedding/afgettingready0061.jpg","images/wedding/afgettingready0113.jpg","images/wedding/afgettingready9970.jpg","images/wedding/aggettingready0202.jpg","images/wedding/ahgettingready5784.jpg","images/wedding/aigettingready0226.jpg","images/wedding/aigettingready0269.jpg","images/wedding/ajgettingready0270.jpg","images/wedding/ajgettingready6161.jpg","images/wedding/bafirstlook6254.jpg","images/wedding/bbfirstlook0288.jpg","images/wedding/bcfirstlook6336.jpg","images/wedding/bcfirstlook6484.jpg","images/wedding/beweddingparty0369.jpg","images/wedding/bfweddingparty0410.jpg","images/wedding/bgweddingparty6801.jpg","images/wedding/bhweddingparty6853.jpg","images/wedding/biweddingparty0468.jpg","images/wedding/biweddingparty1626.jpg","images/wedding/biweddingparty6906.jpg","images/wedding/bmweddingparty7059.jpg","images/wedding/bnweddingparty7104.jpg","images/wedding/bnweddingparty7157.jpg","images/wedding/bnweddingparty7195.jpg","images/wedding/bnweddingparty7246.jpg","images/wedding/bnweddingparty7270.jpg","images/wedding/boweddingparty0531.jpg","images/wedding/boweddingparty0585.jpg","images/wedding/boweddingparty0646.jpg","images/wedding/boweddingparty0652.jpg","images/wedding/boweddingparty0675.jpg","images/wedding/caportraits1668.jpg","images/wedding/cbportraits7613.jpg","images/wedding/cdportraits7849.jpg","images/wedding/cdportraits7917.jpg","images/wedding/dbceremony8087.jpg","images/wedding/dcceremony0853.jpg","images/wedding/dcceremony0857.jpg","images/wedding/dcceremony0862.jpg","images/wedding/dcceremony0888.jpg","images/wedding/dcceremony0897.jpg","images/wedding/dcceremony0899.jpg","images/wedding/dcceremony0903.jpg","images/wedding/dcceremony0906.jpg","images/wedding/dcceremony0909.jpg","images/wedding/dcceremony0915.jpg","images/wedding/ddceremony1728.jpg","images/wedding/ddceremony1744.jpg","images/wedding/ddceremony8106.jpg","images/wedding/ddceremony8119.jpg","images/wedding/ddceremony8125.jpg","images/wedding/ddceremony8134.jpg","images/wedding/ddceremony8149.jpg","images/wedding/ddceremony8158.jpg","images/wedding/ddceremony8166.jpg","images/wedding/ddceremony8179.jpg","images/wedding/ddceremony8185.jpg","images/wedding/deceremony0922.jpg","images/wedding/deceremony0958.jpg","images/wedding/dfceremony8232.jpg","images/wedding/dfceremony8241.jpg","images/wedding/dgceremony1762.jpg","images/wedding/dhceremony0994.jpg","images/wedding/djceremony1016.jpg","images/wedding/doceremony1037.jpg","images/wedding/dpfamily1673.jpg","images/wedding/dpfamily1694.jpg","images/wedding/dpfamily8044.jpg","images/wedding/dpfamily8417.jpg","images/wedding/dpfamily8419.jpg","images/wedding/dpfamily8423.jpg","images/wedding/dpfamily8429.jpg","images/wedding/dpfamily8434.jpg","images/wedding/dpfamily8437.jpg","images/wedding/dpfamily8441.jpg","images/wedding/dpfamily8445.jpg","images/wedding/dpfamily8452.jpg","images/wedding/dpfamily8454.jpg","images/wedding/dpfamily8457.jpg","images/wedding/dpfamily8459.jpg","images/wedding/ebdetails1825.jpg","images/wedding/ebdetails1843.jpg","images/wedding/ecdetails8592.jpg","images/wedding/ecdetails8997.jpg","images/wedding/ecdetails9373.jpg","images/wedding/faintros8637.jpg","images/wedding/faintros8649.jpg","images/wedding/faintros8665.jpg","images/wedding/gafirstdance1209.jpg","images/wedding/gafirstdance8729.jpg","images/wedding/hadad1240.jpg","images/wedding/hadad8818.jpg","images/wedding/hadad8875.jpg","images/wedding/hbmom1900.jpg","images/wedding/hbmom8879.jpg","images/wedding/iatoasts8909.jpg","images/wedding/ibtoasts8947.jpg","images/wedding/ibtoasts8949.jpg","images/wedding/ibtoasts8954.jpg","images/wedding/ibtoasts8962.jpg","images/wedding/jacake1365.jpg","images/wedding/jacake9017.jpg","images/wedding/kaparty1598.jpg","images/wedding/kaparty1819.jpg","images/wedding/kaparty1962.jpg","images/wedding/kaparty8986.jpg","images/wedding/kaparty8987.jpg","images/wedding/kaparty9006.jpg","images/wedding/kaparty9092.jpg","images/wedding/kaparty9095.jpg","images/wedding/kaparty9099.jpg","images/wedding/kaparty9106.jpg","images/wedding/kaparty9146.jpg","images/wedding/kaparty9161.jpg","images/wedding/kaparty9214.jpg","images/wedding/kaparty9216.jpg","images/wedding/kaparty9244.jpg","images/wedding/kaparty9258.jpg","images/wedding/kaparty9267.jpg","images/wedding/kaparty9270.jpg","images/wedding/kaparty9288.jpg","images/wedding/kaparty9328.jpg","images/wedding/kaparty9335.jpg","images/wedding/kaparty9416.jpg","images/wedding/kaparty9420.jpg"],"caption":[],"caption_valign":"none","caption_halign":"left","link":[true],"h":null,"w":null,"gap":"5px","border_radius":"0px","layout":"grid","shuffle":false},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-53224e9d1462bc7556ab" style="width:100%;height:100%;" class="pixgallery html-widget"></div>
+<script type="application/json" data-for="htmlwidget-53224e9d1462bc7556ab">{"x":{"path":["images/wedding/afgettingready0021.jpg","images/wedding/afgettingready0061.jpg","images/wedding/afgettingready0113.jpg","images/wedding/afgettingready9970.jpg","images/wedding/aggettingready0202.jpg","images/wedding/ahgettingready5784.jpg","images/wedding/aigettingready0226.jpg","images/wedding/aigettingready0269.jpg","images/wedding/ajgettingready0270.jpg","images/wedding/ajgettingready6161.jpg","images/wedding/bafirstlook6254.jpg","images/wedding/bbfirstlook0288.jpg","images/wedding/bcfirstlook6336.jpg","images/wedding/bcfirstlook6484.jpg","images/wedding/beweddingparty0369.jpg","images/wedding/bfweddingparty0410.jpg","images/wedding/bgweddingparty6801.jpg","images/wedding/bhweddingparty6853.jpg","images/wedding/biweddingparty0468.jpg","images/wedding/biweddingparty1626.jpg","images/wedding/biweddingparty6906.jpg","images/wedding/bmweddingparty7059.jpg","images/wedding/bnweddingparty7104.jpg","images/wedding/bnweddingparty7157.jpg","images/wedding/bnweddingparty7195.jpg","images/wedding/bnweddingparty7246.jpg","images/wedding/bnweddingparty7270.jpg","images/wedding/boweddingparty0531.jpg","images/wedding/boweddingparty0585.jpg","images/wedding/boweddingparty0646.jpg","images/wedding/boweddingparty0652.jpg","images/wedding/boweddingparty0675.jpg","images/wedding/caportraits1668.jpg","images/wedding/cbportraits7613.jpg","images/wedding/cdportraits7849.jpg","images/wedding/cdportraits7917.jpg","images/wedding/dbceremony8087.jpg","images/wedding/dcceremony0853.jpg","images/wedding/dcceremony0857.jpg","images/wedding/dcceremony0862.jpg","images/wedding/dcceremony0888.jpg","images/wedding/dcceremony0897.jpg","images/wedding/dcceremony0899.jpg","images/wedding/dcceremony0903.jpg","images/wedding/dcceremony0906.jpg","images/wedding/dcceremony0909.jpg","images/wedding/dcceremony0915.jpg","images/wedding/ddceremony1728.jpg","images/wedding/ddceremony1744.jpg","images/wedding/ddceremony8106.jpg","images/wedding/ddceremony8119.jpg","images/wedding/ddceremony8125.jpg","images/wedding/ddceremony8134.jpg","images/wedding/ddceremony8149.jpg","images/wedding/ddceremony8158.jpg","images/wedding/ddceremony8166.jpg","images/wedding/ddceremony8179.jpg","images/wedding/ddceremony8185.jpg","images/wedding/deceremony0922.jpg","images/wedding/deceremony0958.jpg","images/wedding/dfceremony8232.jpg","images/wedding/dfceremony8241.jpg","images/wedding/dgceremony1762.jpg","images/wedding/dhceremony0994.jpg","images/wedding/djceremony1016.jpg","images/wedding/doceremony1037.jpg","images/wedding/dpfamily1673.jpg","images/wedding/dpfamily1694.jpg","images/wedding/dpfamily8044.jpg","images/wedding/dpfamily8417.jpg","images/wedding/dpfamily8419.jpg","images/wedding/dpfamily8423.jpg","images/wedding/dpfamily8429.jpg","images/wedding/dpfamily8434.jpg","images/wedding/dpfamily8437.jpg","images/wedding/dpfamily8441.jpg","images/wedding/dpfamily8445.jpg","images/wedding/dpfamily8452.jpg","images/wedding/dpfamily8454.jpg","images/wedding/dpfamily8457.jpg","images/wedding/dpfamily8459.jpg","images/wedding/ebdetails1825.jpg","images/wedding/ebdetails1843.jpg","images/wedding/ecdetails8592.jpg","images/wedding/ecdetails8997.jpg","images/wedding/ecdetails9373.jpg","images/wedding/faintros8637.jpg","images/wedding/faintros8649.jpg","images/wedding/faintros8665.jpg","images/wedding/gafirstdance1209.jpg","images/wedding/gafirstdance8729.jpg","images/wedding/hadad1240.jpg","images/wedding/hadad8818.jpg","images/wedding/hadad8875.jpg","images/wedding/hbmom1900.jpg","images/wedding/hbmom8879.jpg","images/wedding/iatoasts8909.jpg","images/wedding/ibtoasts8947.jpg","images/wedding/ibtoasts8949.jpg","images/wedding/ibtoasts8954.jpg","images/wedding/ibtoasts8962.jpg","images/wedding/jacake1365.jpg","images/wedding/jacake9017.jpg","images/wedding/kaparty1598.jpg","images/wedding/kaparty1819.jpg","images/wedding/kaparty1962.jpg","images/wedding/kaparty8986.jpg","images/wedding/kaparty8987.jpg","images/wedding/kaparty9006.jpg","images/wedding/kaparty9092.jpg","images/wedding/kaparty9095.jpg","images/wedding/kaparty9099.jpg","images/wedding/kaparty9106.jpg","images/wedding/kaparty9146.jpg","images/wedding/kaparty9161.jpg","images/wedding/kaparty9214.jpg","images/wedding/kaparty9216.jpg","images/wedding/kaparty9244.jpg","images/wedding/kaparty9258.jpg","images/wedding/kaparty9267.jpg","images/wedding/kaparty9270.jpg","images/wedding/kaparty9288.jpg","images/wedding/kaparty9328.jpg","images/wedding/kaparty9335.jpg","images/wedding/kaparty9416.jpg","images/wedding/kaparty9420.jpg"],"caption":[],"caption_valign":"none","caption_halign":"left","link":[true],"h":null,"w":null,"gap":"5px","border_radius":"0px","layout":"grid","shuffle":false},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

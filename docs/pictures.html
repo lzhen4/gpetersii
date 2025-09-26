@@ -2275,6 +2275,23 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     max-height: 40px; /* Makes logo bigger, default was 20px */
   }
 
+  /* Navbar dropdown style */
+  .distill-site-header .dropdown-menu,
+  .distill-site-header .nav-dropdown .nav-dropdown-content {
+    background-color: #000 !important;
+    border: 1px solid #444;
+  }
+
+  .distill-site-header .dropdown-menu .dropdown-item,
+  .distill-site-header .nav-dropdown .nav-dropdown-content a {
+    color: #fff !important;
+  }
+
+  .distill-site-header .dropdown-menu .dropdown-item:hover,
+  .distill-site-header .nav-dropdown .nav-dropdown-content a:hover {
+    background-color: #222 !important;
+    color: #fff !important;
+  }
 
   /* Background image */
   body {
@@ -2293,12 +2310,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       color: #FFFFFF !important;
   }
 
+  /* Countdown clock */
   #countdown {
       font-size: 2em;
       color: #FFFFFF; /* Adjust based on site's background color */
       text-align: center;
       margin-top: 20px;
-  }</style>
+  }
+  </style>
   <style type="text/css">
   /* base style */
 
@@ -2496,8 +2515,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a href="rsvp.html">RSVP</a>
 <a href="registry.html">Registry</a>
 <a href="weddingparty.html">Party</a>
-<a href="pictures.html">Pictures</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Pictures
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="pictures.html">Engagement</a>
 <a href="wedding.html">Wedding</a>
+</div>
+</div>
 <a href="faq.html">FAQ</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -2535,8 +2563,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!-- } -->
 <!-- ``` -->
 <div class="layout-chunk" data-layout="l-body">
-<div id="htmlwidget-183b5d16ac56896eb6ee" style="width:100%;height:100%;" class="pixgallery html-widget"></div>
-<script type="application/json" data-for="htmlwidget-183b5d16ac56896eb6ee">{"x":{"path":["images/engagement/eng1.jpg","images/engagement/eng2.jpg","images/engagement/eng3.jpg","images/engagement/eng4.jpg","images/engagement/eng5.jpg","images/engagement/eng6.jpg","images/engagement/eng7.jpg","images/engagement/eng8.jpg","images/engagement/eng9.jpg","images/engagement/eng10.jpg","images/engagement/eng11.jpg","images/engagement/eng12.jpg","images/engagement/eng13.jpg","images/engagement/eng14.jpg","images/engagement/eng15_cover.jpg","images/engagement/eng16.jpg","images/engagement/eng17.jpg","images/engagement/eng18.jpg","images/engagement/eng19.jpg","images/engagement/eng20.jpg","images/engagement/eng21.jpg","images/engagement/eng22.jpg","images/engagement/eng23.jpg","images/engagement/eng24.jpg","images/evie2.jpg","images/evie1.jpg","images/pippin.jpg"],"caption":[],"caption_valign":"none","caption_halign":"left","link":[true],"h":null,"w":null,"gap":"5px","border_radius":"0px","layout":"grid","shuffle":false},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-d7fcf4f4cd3c55fa0ff2" style="width:100%;height:100%;" class="pixgallery html-widget"></div>
+<script type="application/json" data-for="htmlwidget-d7fcf4f4cd3c55fa0ff2">{"x":{"path":["images/engagement/eng1.jpg","images/engagement/eng2.jpg","images/engagement/eng3.jpg","images/engagement/eng4.jpg","images/engagement/eng5.jpg","images/engagement/eng6.jpg","images/engagement/eng7.jpg","images/engagement/eng8.jpg","images/engagement/eng9.jpg","images/engagement/eng10.jpg","images/engagement/eng11.jpg","images/engagement/eng12.jpg","images/engagement/eng13.jpg","images/engagement/eng14.jpg","images/engagement/eng15_cover.jpg","images/engagement/eng16.jpg","images/engagement/eng17.jpg","images/engagement/eng18.jpg","images/engagement/eng19.jpg","images/engagement/eng20.jpg","images/engagement/eng21.jpg","images/engagement/eng22.jpg","images/engagement/eng23.jpg","images/engagement/eng24.jpg","images/evie2.jpg","images/evie1.jpg","images/pippin.jpg"],"caption":[],"caption_valign":"none","caption_halign":"left","link":[true],"h":null,"w":null,"gap":"5px","border_radius":"0px","layout":"grid","shuffle":false},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

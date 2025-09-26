@@ -9,6 +9,26 @@ title: "Pictures"
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+<!-- ```{r} -->
+<!-- # Resize jpg for web -->
+<!-- library(magick) -->
+<!-- in_dir <- "C:/Users/Leslie/Desktop/wedding_pics/engagement" -->
+<!-- out_dir <- "images/engagement" -->
+<!-- dir.create(out_dir, recursive = TRUE, showWarnings = FALSE) -->
+
+<!-- files <- list.files(in_dir, pattern = "(?i)\\.jpe?g$", full.names = TRUE) -->
+
+<!-- for (f in files) { -->
+<!--   img <- image_read(f) -->
+<!--   img <- image_orient(img) # Honor camera rotation -->
+<!--   img <- image_scale(img, "1600x1600") # Shrink to fit box, keep aspect ratio -->
+<!--   image_write(img, -->
+<!--               path = file.path(out_dir, basename(f)), -->
+<!--               format = "jpeg", -->
+<!--               quality = 82) -->
+<!-- } -->
+<!-- ``` -->
+
 
 ```{r}
 paths <- c(
@@ -40,7 +60,6 @@ paths <- c(
   "images/evie2.jpg",
   "images/evie1.jpg",
   "images/pippin.jpg"  
-
 )
 
 #library(pixture)

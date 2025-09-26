@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 <!-- ```{r} -->
-<!-- # Resize jpg for web -->
+<!-- # Resize jpg for web --> 
 <!-- library(magick) -->
 <!-- in_dir <- "C:/Users/Leslie/Desktop/wedding_pics/engagement" -->
 <!-- out_dir <- "images/engagement" -->

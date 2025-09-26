@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <!--   img <- image_read(f) -->
 <!--   img <- image_orient(img) # Honor camera rotation -->
 <!--   img <- image_scale(img, "1600x1600") # Shrink to fit box, keep aspect ratio -->
-<!--   image_write(img,  -->
+<!--   image_write(img, -->
 <!--               path = file.path(out_dir, basename(f)), -->
 <!--               format = "jpeg", -->
 <!--               quality = 82) -->

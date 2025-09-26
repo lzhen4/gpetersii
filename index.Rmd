@@ -12,7 +12,7 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-[![Cover](images/engagement/eng15_cover.jpg)](https://lzhen4.github.io/gpetersii/pictures.html)
+[![Cover](images/wedding/cbportraits7613.jpg)](https://lzhen4.github.io/gpetersii/wedding.html)
 
 <p>Married for</p>
 <div id="countdown"></div>

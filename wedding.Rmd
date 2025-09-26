@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <!-- # Resize jpg for web -->
 <!-- library(magick) -->
 <!-- in_dir <- "C:/Users/Leslie/Desktop/wedding_pics/wedding" -->
-<!-- out_dir <- "images/wedding" -->
+<!-- out_dir <- "images/wedding2" # CHANGE DIRECTORY FOR FINAL -->
 <!-- dir.create(out_dir, recursive = TRUE, showWarnings = FALSE) -->
 
 <!-- files <- list.files(in_dir, pattern = "(?i)\\.jpe?g$", full.names = TRUE) -->

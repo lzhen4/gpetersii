@@ -1,0 +1,23 @@
+---
+title: "Wedding"
+# description: |
+#   some pictures
+# pixture library from https://github.com/royfrancis/pixture
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+```{r}
+paths <- c(
+  "images/evie2.jpg",
+  "images/evie1.jpg",
+  "images/pippin.jpg"  
+
+)
+
+#library(pixture)
+pixture::pixgallery(paths)
+```
